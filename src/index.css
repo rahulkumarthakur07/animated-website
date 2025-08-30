@@ -76,9 +76,13 @@ body {
     @apply absolute bottom-[-80dvh] left-1/2 w-full max-w-96 -translate-x-1/2 text-center font-circular-web text-lg md:max-w-[34rem];
   }
 
-  .about-image {
-    @apply absolute left-1/2 top-0 z-20 h-[60vh] w-96 origin-center -translate-x-1/2 overflow-hidden rounded-3xl md:w-[30vw];
-  }
+.about-image {
+  @apply absolute left-1/2 top-0 z-20 origin-center -translate-x-1/2 overflow-hidden rounded-3xl;
+  width: 60vw;
+  height: 60vh;
+}
+
+
 
   .animated-title {
     @apply flex flex-col gap-1 text-7xl uppercase leading-[.8] text-white sm:px-32 md:text-[6rem];
